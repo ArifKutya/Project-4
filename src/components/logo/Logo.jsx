@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Logo = ({ type = 'default' }) => {
+const Logo = ({ type }) => {
     let logoSrc = '/images/logo.svg';
     if (type === 'muted') {
         logoSrc = '/images/logo-muted.svg';
