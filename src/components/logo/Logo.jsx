@@ -9,4 +9,8 @@ const Logo = ({ type }) => {
     return <img src={logoSrc} alt="Logo" />;
 };
 
+Logo.defaultProps = {
+    type: 'default'
+};
+
 export default Logo;
